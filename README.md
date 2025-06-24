@@ -48,7 +48,7 @@ All resources are deployed using **Terraform modules**.
    
 ## 📁 Project Structure
   
-***3-tier-infra/    
+*3-tier-infra/    
 |        
 |── vpc/      
 |── ec2/     
@@ -58,7 +58,7 @@ All resources are deployed using **Terraform modules**.
 |── variables.tf  
 |── outputs.tf       
 |── terraform.tfvars     
-|── README.md***     
+|── README.md*    
            
 ---         
                         
