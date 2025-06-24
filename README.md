@@ -34,7 +34,6 @@ Users
 ▼
 [Amazon RDS (MySQL)] <------ Private Subnet with DB Subnet Group
 
-
 ---
 
 ## 🔧 Technologies Used
