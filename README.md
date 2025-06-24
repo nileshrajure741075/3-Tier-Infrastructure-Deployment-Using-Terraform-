@@ -26,16 +26,16 @@ Users
 [Route 53 / Internet Gateway]  
 │  
 ▼   
-[EC2 Web Server (Nginx)] <------ Public Subnet (AZ1 & AZ2)
-│ 
-▼ 
-[EC2 App Server (PHP)] <------ Private Subnet (AZ1 & AZ2)
-│  
-▼  
-[Amazon RDS (MySQL)] <------ Private Subnet with DB Subnet Group
-
----
-
+[EC2 Web Server (Nginx)] <------ Public Subnet (AZ1 & AZ2)  
+│   
+▼   
+[EC2 App Server (PHP)] <------ Private Subnet (AZ1 & AZ2)  
+│    
+▼    
+[Amazon RDS (MySQL)] <------ Private Subnet with DB Subnet Group   
+  
+---  
+   
 ## 🔧 Technologies Used
 
 - **AWS Services**: VPC, EC2, RDS, S3, Route53, IGW, NAT Gateway, Security Groups, NACLs
@@ -45,28 +45,24 @@ Users
 - **Database**: Amazon RDS (MySQL/PostgreSQL)
 
 ---
-
+   
 ## 📁 Project Structure
-
-3-tier-infra/
-│
-├── modules/
-│ ├── vpc/
-│ ├── ec2/
-│ ├── rds/
-│
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── setup_web.sh # Script to setup Nginx and HTML form
-├── setup_app.sh # Script to setup PHP form handler
-├── terraform.tfvars
-├── README.md
-
-
----
-
-## 🛠️ Prerequisites
+  
+3-tier-infra/    
+│        
+├── vpc/      
+├── ec2/     
+├── rds/     
+│             
+├── main.tf      
+├── variables.tf  
+├── outputs.tf       
+├── terraform.tfvars     
+├── README.md     
+           
+---         
+                        
+## 🛠️ Prerequisites           
 
 - AWS account with IAM user having sufficient permissions
 - AWS CLI configured (`aws configure`)
