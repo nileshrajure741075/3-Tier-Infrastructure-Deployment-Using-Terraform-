@@ -20,19 +20,19 @@ All resources are deployed using **Terraform modules**.
 
 ## 📐 Infrastructure Diagram
 
-***Users
-│
-▼
-[Route 53 / Internet Gateway]
-│
-▼
+Users  
+│  
+▼  
+[Route 53 / Internet Gateway]  
+│  
+▼   
 [EC2 Web Server (Nginx)] <------ Public Subnet (AZ1 & AZ2)
-│
-▼
+│ 
+▼ 
 [EC2 App Server (PHP)] <------ Private Subnet (AZ1 & AZ2)
-│
-▼
-[Amazon RDS (MySQL)] <------ Private Subnet with DB Subnet Group***
+│  
+▼  
+[Amazon RDS (MySQL)] <------ Private Subnet with DB Subnet Group
 
 ---
 
