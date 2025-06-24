@@ -49,11 +49,11 @@ Users
 ## 📁 Project Structure
   
 3-tier-infra/    
- │        
+│        
 ├── vpc/      
 ├── ec2/     
 ├── rds/     
- │             
+│             
 ├── main.tf      
 ├── variables.tf  
 ├── outputs.tf       
