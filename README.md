@@ -2,7 +2,7 @@
 
 ## 📝 Project Objective
 
-The goal of this project is to design and deploy a **3-Tier Web Application Architecture** on **AWS** using **Terraform modules** and **automation tools** like Ansible or Terraform provisioners. This architecture follows industry best practices for scalable and modular infrastructure.
+The goal of this project is to design and deploy a **3-Tier Web Application Architecture** on **AWS** using **Terraform modules**. This architecture follows industry best practices for scalable and modular infrastructure.
 
 ---
 
@@ -22,8 +22,7 @@ All resources are deployed using **Terraform modules**.
 
 *Users  
 │  
-▼  
-[Route 53 / Internet Gateway]  
+[Internet Gateway]  
 │  
 ▼   
 [EC2 Web Server (Nginx)] <------ Public Subnet (AZ1 & AZ2)  
@@ -38,9 +37,8 @@ All resources are deployed using **Terraform modules**.
    
 ## 🔧 Technologies Used
 
-- **AWS Services**: VPC, EC2, RDS, S3, Route53, IGW, NAT Gateway, Security Groups, NACLs
+- **AWS Services**: VPC, EC2, RDS, Subnets, Route Tables, IGW, NAT Gateway, Security Groups
 - **Infrastructure as Code**: Terraform (with modules)
-- **Automation**: Ansible or Terraform `remote-exec` provisioners
 - **Web Stack**: Nginx, PHP, HTML
 - **Database**: Amazon RDS (MySQL/PostgreSQL)
 
