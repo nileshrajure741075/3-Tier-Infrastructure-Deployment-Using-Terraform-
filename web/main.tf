@@ -3,7 +3,7 @@ resource "aws_instance" "webec2" {
   instance_type = var.instance_type 
   subnet_id = var.subnet_id
   vpc_security_group_ids = [var.sg_id]
-  key_name = "tf-key-pair"
+  key_name = "infra-key"
 tags = {
     Name = "web-instance"
 }
