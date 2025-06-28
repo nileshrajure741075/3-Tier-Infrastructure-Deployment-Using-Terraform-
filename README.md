@@ -48,20 +48,20 @@ All resources are deployed using **Terraform modules**.
    
 ## 📁 Project Structure
   
-*3-tier-infra/    
-├── modules/
-│ ├── vpc/
-│ ├── security/
-│ ├── web/
-│ ├── app/
-│ └── db/
-├── main.tf
-├── variables.tf
-├── terraform.tfvars
-└── README.md*    
-           
----         
-                        
+*3-tier-infra/       
+├── modules/  
+│ ├── vpc/   
+│ ├── security/  
+│ ├── web/   
+│ ├── app/    
+│ └── db/           
+├── main.tf              
+├── variables.tf              
+├── terraform.tfvars        
+└── README.md*          
+                      
+---                  
+                         
 ## 🛠️ Prerequisites           
 
 - AWS account with IAM user having sufficient permissions
