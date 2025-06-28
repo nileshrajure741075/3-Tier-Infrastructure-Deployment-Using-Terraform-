@@ -23,14 +23,11 @@ All resources are deployed using **Terraform modules**.
 *Users  
 │  
 [Internet Gateway]  
-│  
-▼   
-[EC2 Web Server (Nginx)] <------ Public Subnet (AZ1 & AZ2)  
 │   
-▼   
-[EC2 App Server (PHP)] <------ Private Subnet (AZ1 & AZ2)  
+[EC2 Web Server (Nginx)] <------ Public Subnet (AZ1 & AZ2)  
 │    
-▼    
+[EC2 App Server (PHP)] <------ Private Subnet (AZ1 & AZ2)  
+│     
 [Amazon RDS (MySQL)] <------ Private Subnet with DB Subnet Group*   
   
 ---  
