@@ -1,8 +1,8 @@
 variable "region" {
-  default = "ap-south-1"
+  default = "us-east-1"
   }
 variable "ami_id" {
-  default = "ami-06b6e5225d1db5f46"
+  default = "ami-0731b************"
 }
 variable "ins_type" {
   default = "t2.micro"
