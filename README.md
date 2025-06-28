@@ -49,16 +49,16 @@ All resources are deployed using **Terraform modules**.
 ## 📁 Project Structure
   
 *3-tier-infra/    
-|        
-|── vpc/      
-|── ec2/     
-|── rds/     
-|             
-|── main.tf      
-|── variables.tf  
-|── outputs.tf       
-|── terraform.tfvars     
-|── README.md*    
+├── modules/
+│ ├── vpc/
+│ ├── security/
+│ ├── web/
+│ ├── app/
+│ └── db/
+├── main.tf
+├── variables.tf
+├── terraform.tfvars
+└── README.md*    
            
 ---         
                         
